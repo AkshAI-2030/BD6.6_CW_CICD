@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     { 
-      "src": "./BD6.6_CW/server.js", 
+      "src": "server.js", 
       "use": "@vercel/node" 
     }
   ],
   "rewrites": [
     { 
       "source": "/(.*)", 
-      "destination": "./BD6.6_CW/server.js" 
+      "destination": "server.js" 
     }
   ]
 }
