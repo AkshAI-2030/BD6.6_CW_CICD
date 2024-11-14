@@ -3,8 +3,6 @@ const http = require('http');
 let { app } = require('../index.js');
 let { getAllEmployees } = require('../controllers');
 
-let http = require('http');
-
 jest.mock('../controllers', () => ({
   ...jest.requireActual('../controllers'),
   getAllEmployees: jest.fn(),
