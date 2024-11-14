@@ -24,6 +24,4 @@ app.get('/employees/details/:id', (req, res) => {
   });
 });
 
-module.exports = {
-  app,
-};
+module.exports = {app}
